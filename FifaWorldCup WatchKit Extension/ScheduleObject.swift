@@ -14,12 +14,12 @@ class ScheduleObject: NSObject {
     var team1Name: String?
     var team2Image:String?
     var team2Name: String?
-    var date1: String?
-    var time1:String?
+//    var date1: String?
+//    var time1:String?
    
     
     convenience override init() {
-        self.init(team1Image: "france", team1Name: "france", team2Image: "italy", team2Name: "italy", date1: "10-03-19", time1: "01:00PM")
+        self.init(team1Image: "france", team1Name: "france", team2Image: "italy", team2Name: "italy")
     }
     
     init(team1Image:String?,team1Name:String?,team2Image:String?,team2Name:String?) {
@@ -27,8 +27,8 @@ class ScheduleObject: NSObject {
         self.team1Name = team1Name
         self.team2Image = team2Image
         self.team2Name = team2Name
-        self.date1 = date
-        self.time1 = time
+//        self.date1 = date
+//        self.time1 = time
        
     }
 
