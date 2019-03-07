@@ -26,5 +26,11 @@ class ScheduleRowController: NSObject {
     //MARK: team2 Image
     @IBOutlet weak var team2Image: WKInterfaceImage!
     
+    //MARK: date label
+    @IBOutlet weak var dateLabel: WKInterfaceLabel!
+    
+    //MARK: time label
+    @IBOutlet weak var timeLabel: WKInterfaceLabel!
+    
     
 }

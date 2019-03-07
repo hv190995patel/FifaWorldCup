@@ -22,16 +22,19 @@ class ScheduleInterfaceController: WKInterfaceController {
     //function for adding data to the empty array
     func scheduleData() {
         
-        //specify the gamelist data
-        let c1 = ScheduleObject(team1Image: "france", team1Name: "france", team2Image: "italy", team2Name: "italy")
-        let c2 = ScheduleObject(team1Image: "france", team1Name: "france1", team2Image: "france", team2Name: "italy1")
-        let c3 = ScheduleObject(team1Image: "france", team1Name: "france1", team2Image: "france", team2Name: "italy1")
-        let c4 = ScheduleObject(team1Image: "france", team1Name: "france1", team2Image: "france", team2Name: "italy1")
-        let c5 = ScheduleObject(team1Image: "france", team1Name: "france1", team2Image: "france", team2Name: "italy1")
-        
-        //append data to the empty array
-        gameList.append(c1)
-        gameList.append(c2)
+//        //specify the gamelist data
+//        let c1 = ScheduleObject(team1Image: "france", team1Name: "france", team2Image: "south_korea", team2Name: "South Korea")
+//        let c2 = ScheduleObject(team1Image: "norway", team1Name: "Norway", team2Image: "nigeria", team2Name: "Nigeria")
+//        let c3 = ScheduleObject(team1Image: "france", team1Name: "france1", team2Image: "france", team2Name: "italy1")
+//        let c4 = ScheduleObject(team1Image: "france", team1Name: "france1", team2Image: "france", team2Name: "italy1")
+//        let c5 = ScheduleObject(team1Image: "france", team1Name: "france1", team2Image: "france", team2Name: "italy1")
+//        
+//        //append data to the empty array
+//        gameList.append(c1)
+//        gameList.append(c2)
+//        gameList.append(c3)
+//        gameList.append(c4)
+//        gameList.append(c5)
     }
     
     override func awake(withContext context: Any?) {

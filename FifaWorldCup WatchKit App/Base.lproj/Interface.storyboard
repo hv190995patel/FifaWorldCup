@@ -33,7 +33,7 @@
                         <table alignment="left" id="3Yf-E7-wJI">
                             <items>
                                 <tableRow identifier="myRow" id="ftH-8l-ecn" customClass="ScheduleRowController" customModule="FifaWorldCup_WatchKit_App" customModuleProvider="target">
-                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" spacing="7" id="2eg-2f-sBG">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" spacing="4" id="2eg-2f-sBG">
                                         <items>
                                             <group width="1" alignment="center" spacing="6" id="ufJ-sf-yji">
                                                 <items>
@@ -41,21 +41,25 @@
                                                     <label alignment="left" verticalAlignment="center" text="Team1" id="zZS-Zc-CcV"/>
                                                     <label alignment="right" verticalAlignment="center" text="Date" id="lOh-BX-yC4"/>
                                                 </items>
+                                                <edgeInsets key="margins" left="5" right="5" top="5" bottom="5"/>
                                             </group>
                                             <group width="1" alignment="left" verticalAlignment="center" id="W2i-YP-gdB">
                                                 <items>
                                                     <imageView width="20" height="20" alignment="left" id="HWq-KU-vfH"/>
-                                                    <label alignment="left" verticalAlignment="center" text="Team1" id="hki-ub-hmY"/>
+                                                    <label alignment="left" verticalAlignment="center" text="Team2" id="hki-ub-hmY"/>
                                                     <label alignment="right" verticalAlignment="center" text="Time" id="9XK-6G-gLh"/>
                                                 </items>
+                                                <edgeInsets key="margins" left="5" right="5" top="5" bottom="5"/>
                                             </group>
                                         </items>
                                     </group>
                                     <connections>
+                                        <outlet property="dateLabel" destination="lOh-BX-yC4" id="EU9-6g-Pwe"/>
                                         <outlet property="scheduleName1Label" destination="zZS-Zc-CcV" id="EFg-JT-Zdp"/>
                                         <outlet property="scheduleName2Label" destination="hki-ub-hmY" id="h03-yx-OEu"/>
                                         <outlet property="team1Image" destination="j2f-2t-1gx" id="iSP-yn-ya4"/>
                                         <outlet property="team2Image" destination="HWq-KU-vfH" id="5og-x4-OCZ"/>
+                                        <outlet property="timeLabel" destination="9XK-6G-gLh" id="ubv-mH-6ja"/>
                                     </connections>
                                 </tableRow>
                             </items>
